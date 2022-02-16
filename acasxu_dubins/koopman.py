@@ -164,12 +164,12 @@ def Test(init_test_state, test_cmds, A, B, num_observables, WF,BF):
         s = p[0:3, 0]
         outx.append(s[0])
     
-    'ploting each state and predicted state x, y, tetha'
+    'plot'
     plt.plot(outx, '--', color="r")
     plt.plot(init_test_state[0,:], '.', color="b")
     plt.xlabel("number of samples")
-    plt.ylabel("Acasxu intruder state: (x, y, theta)")
-    plt.legend(["Predicted states", "Simulated states"])
+    plt.ylabel("Acasxu intruder x position")
+    plt.legend(["Predicted x positions", "Simulated x positions"])
     plt.show()
 
 
