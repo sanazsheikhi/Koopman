@@ -1,5 +1,7 @@
 
-'Implementation of Koopman operator with Fourier feature and testing it with acasxu data samples'
+"""Implementation of Koopman operator with Fourier feature and testing it with acasxu data samples
+   By Sanaz Sheikhi. ssheikhi@cs.stonybrook.edu | sanaz.sheikhi@gmail.com
+"""
 
 
 import os
